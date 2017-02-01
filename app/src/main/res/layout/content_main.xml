@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/choose_app"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_qrcode_scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:onClick="openScanner"
+        android:text="@string/button_open_scanner"
+        android:textSize="@dimen/button_default_text_size" />
+
+    <Button
+        android:id="@+id/button_qrcode_generator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:onClick="openGenerator"
+        android:text="@string/button_open_generator"
+        android:textSize="@dimen/button_default_text_size" />
+
+</LinearLayout>

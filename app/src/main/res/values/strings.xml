@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QRsav</string>
+    <string name="title_activity_main">%1$s - Smart &amp; Secure</string>
+    <string name="title_activity_qrcode_scanner">%1$s - Scanner</string>
+    <string name="title_activity_qrcode_generator">%1$s - Generator</string>
+
+    <string name="action_signing">Enable signature process</string>
+    <string name="action_sharing">Share</string>
+    <string name="action_saving">Save QR code</string>
+
+    <string name="edit_message">Enter a message...</string>
+    <string name="choose_app">Choose your application:</string>
+
+    <string name="button_open_generator">QR Code Generator</string>
+    <string name="button_open_scanner">QR Code Scanner</string>
+    <string name="button_generate">Generate QR Code</string>
+    <string name="button_scan">Scan QR code</string>
+
+    <string name="verify_result_default">NO CODE DETECTED</string>
+    <string name="verify_result_success">SIGNATURE VALID</string>
+    <string name="verify_result_failed">SIGNATURE INVALID</string>
+    <string name="verify_result_no">NO SIGNATURE</string>
+    <string name="camera_open_failed">Failed to open camera</string>
+    <string name="signing_enabled">Signing code enabled.</string>
+    <string name="signing_disabled">Signing code disabled.</string>
+    <string name="your_code">Your QR Code:</string>
+    <string name="signature_create_failed">Failed to create signature.</string>
+    <string name="auto_focus_failed">Failed to set camera\'s focus mode.</string>
+    <string name="encoding_too_big_failed">Data too big.</string>
+    <string name="encoding_empty_failed">Please fill in some text.</string>
+    <string name="saving_success">QR code saved.</string>
+    <string name="saving_failed">Failed to save QR code.</string>
+    <string name="saving_saved">QR code already saved.</string>
+</resources>

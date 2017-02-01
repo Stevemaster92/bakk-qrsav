@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
+    <item
+        android:id="@+id/action_sharing"
+        android:title="@string/action_sharing"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_saving"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="1"
+        android:title="@string/action_saving"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_signing"
+        android:checkable="true"
+        android:checked="true"
+        android:orderInCategory="2"
+        android:title="@string/action_signing"
+        app:showAsAction="never" />
+</menu>

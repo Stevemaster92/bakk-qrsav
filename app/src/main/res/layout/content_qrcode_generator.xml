@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.QRCodeGeneratorActivity"
+    tools:showIn="@layout/activity_qrcode_generator">
+
+    <TextView
+        android:id="@+id/your_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="@string/your_code"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/img_qrcode"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignLeft="@+id/button_generate"
+        android:layout_alignStart="@+id/button_generate"
+        android:layout_alignTop="@+id/your_code"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/image_view_style"/>
+
+    <Button
+        android:id="@+id/button_generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="generateQRCode"
+        android:layout_marginTop="25dp"
+        android:text="@string/button_generate"
+        android:textSize="@dimen/button_default_text_size"
+        android:layout_below="@+id/input_text"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_style"
+        android:gravity="top|left"
+        android:hint="@string/edit_message"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:padding="5dp"
+        android:scrollbars="horizontal"
+        android:layout_below="@+id/img_qrcode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+
+</RelativeLayout>

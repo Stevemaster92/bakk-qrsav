@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QRsav</string>
+    <string name="title_activity_main">%1$s - Smart &amp; Secure</string>
+    <string name="title_activity_qrcode_scanner">%1$s - Scanner</string>
+    <string name="title_activity_qrcode_generator">%1$s - Generator</string>
+
+    <string name="action_signing">Nachricht signieren</string>
+    <string name="action_sharing">Teilen</string>
+    <string name="action_saving">QR-Code speichern</string>
+
+    <string name="edit_message">Nachricht eingeben...</string>
+    <string name="choose_app">Wähle eine Applikation aus:</string>
+
+    <string name="button_open_generator">QR-Code-Generator</string>
+    <string name="button_open_scanner">QR-Code-Scanner</string>
+    <string name="button_generate">QR-Code generieren</string>
+    <string name="button_scan">QR-Code scannen</string>
+
+    <string name="verify_result_default">KEINEN CODE ERFASST</string>
+    <string name="verify_result_success">SIGNATUR GÜLTIG</string>
+    <string name="verify_result_failed">SIGNATUR UNGÜLTIG</string>
+    <string name="verify_result_no">KEINE SIGNATUR</string>
+    <string name="camera_open_failed">Kamera konnte nicht geöffnet werden</string>
+    <string name="signing_enabled">Nachricht signieren an.</string>
+    <string name="signing_disabled">Nachricht signieren aus.</string>
+    <string name="your_code">Dein QR-Code:</string>
+    <string name="signature_create_failed">Signatur konnte nicht generiert werden.</string>
+    <string name="auto_focus_failed">Kamera-Focus konnte nicht gesetzt werden.</string>
+    <string name="encoding_too_big_failed">Nachricht ist zu lang.</string>
+    <string name="encoding_empty_failed">Bitte eine Nachricht eingeben.</string>
+    <string name="saving_success">QR-Code gespeichert.</string>
+    <string name="saving_failed">QR-Code konnte nicht gespeichert werden.</string>
+    <string name="saving_saved">QR-Code bereits gespeichert.</string>
+</resources>
